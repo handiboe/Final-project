@@ -53,10 +53,10 @@ add_lbl = Label(pizza, text="")
 add_lbl.grid(row=8, column=5)
 
 
-add_button = Button(pizza, text="Add Pizza", command = add_cheese)
+add_button = Button(pizza, text="Add to cart", command = add_cheese)
 add_button.grid(row=6, column=0)
 
-add_button = Button(pizza, text="Add Pizza", command = add_pep)
+add_button = Button(pizza, text="Add to cart", command = add_pep)
 add_button.grid(row=6, column=10)
 
 
